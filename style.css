@@ -18,10 +18,8 @@
     transform: scale(1.2);
 }
 
-}
-
 #content{
-    background-color: rgba(195, 211, 235, 0.5);
+    background-color: rgba(175, 172, 172, 0.411);
     padding: 50px 100px;
     border-radius: 25px;
 }
