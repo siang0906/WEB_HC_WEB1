@@ -11,12 +11,19 @@
     margin: 100px auto 0;
     padding: 500px 250px 150px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.8s;
+}
+
+#card:hover{
+    transform: scale(1.2);
+}
 
 }
 
 #content{
     background-color: rgba(195, 211, 235, 0.5);
-    padding: 50px 100px;   
+    padding: 50px 100px;
+    border-radius: 25px;
 }
 
 h1{
@@ -34,7 +41,13 @@ li{
 
 footer{
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
+    margin-top: 80px;
     letter-spacing: 50px;
+    padding-left: 50px;
     color: rgba(0, 0, 0, 0.3);
+}
+
+body{
+    background: rgb(180, 176, 176);
 }
